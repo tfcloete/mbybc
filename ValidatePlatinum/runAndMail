@@ -1,0 +1,22 @@
+#!/bin/sh
+
+file=temp
+
+./run
+ 
+#
+#Send the mail
+# Using the cat -v command to print control chars, which prevents the body from being
+# attached as a MIME attachment. (The tr command is an alternative)
+#
+cat -v $file | mail -s "Platinum validation report" tfcloete@gmail.com exports@aloeferoxafrica.com
+#tr -cd '\10\11\12\15\40-\176' < $file | mail -s "Test using tr $file" tfcloete@gmail.com exports@aloeferoxafrica.com
+
+#rm $file
+
+
+
+
+
+
+

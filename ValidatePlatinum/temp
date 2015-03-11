@@ -1,0 +1,511 @@
+Wed Apr 30 16:50:23 SAST 2014
+(Daily)
+
+ *** The following inconsistencies were found in the Platinum Database ***
+
+
+ValidatePlatinum, build number: 8
+
+*** Validation type summary ***
+Validation type: 2 = 3, (No swipe card in Platinum)
+Validation type: 3 = 12, (Not a member in good standing)
+Validation type: 4 = 5, (Name inconsistent with Pastel)
+Validation type: 5 = 9, (Swipecard inconsistent with Controlsoft)
+Validation type: 6 = 1, (Number inconsistent with Controlsoft)
+Validation type: 8 = 53, (Should be on price level 2)
+Validation type: 9 = 5, (Should be on price level 3)
+Validation type: 10 = 278, (No price)
+Validation type: 11 = 58, (Price 1 below margin)
+Validation type: 12 = 62, (Price 3 high discount)
+*** end ***
+
+2, Debtor:, 100, Walmsley Ken, Member:, 139, has no swipe card in Platinum.
+2, Debtor:, 1305, De Villiers, Mr J, Member:, 409, has no swipe card in Platinum.
+2, Debtor:, 1307, Fourie, Mr J, Member:, 041, has no swipe card in Platinum.
+3, Debtor:, 104, Zietsman Mienie, Member:, 144, is not a member in good standing and should be blocked.
+3, Debtor:, 1098, Brown Elna, Member:, 433, is not a member in good standing and should be blocked.
+3, Debtor:, 1099, Brown Elna, Member:, 433, is not a member in good standing and should be blocked.
+3, Debtor:, 1111, Schenck Riaan, Member:, 604, is not a member in good standing and should be blocked.
+3, Debtor:, 1276, Mellors, Mr R, Member:, 116, is not a member in good standing and should be blocked.
+3, Debtor:, 1277, Roon, Mrs C, Member:, 800, is not a member in good standing and should be blocked.
+3, Debtor:, 1278, Roon, Mr H, Member:, 800, is not a member in good standing and should be blocked.
+3, Debtor:, 1279, O-Connor, Mrs A, Member:, 328, is not a member in good standing and should be blocked.
+3, Debtor:, 1314, Boswell, Mr G, Member:, 443, is not a member in good standing and should be blocked.
+3, Debtor:, 1325, Van der Walt, Mr A, Member:, 347, is not a member in good standing and should be blocked.
+3, Debtor:, 456, Venter Herman, Member:, 651, is not a member in good standing and should be blocked.
+3, Debtor:, 477, Jordaan Lodic, Member:, 679, is not a member in good standing and should be blocked.
+4, Debtor:, 1004, van Heerden Andries, Member:, 044, has a name that is inconsistent with Pastel (Joubert Mr Gerhard & Sandra).
+4, Debtor:, 1235, Van Noordwyk,Mr. DC, Member:, 278, has a name that is inconsistent with Pastel (van Noordwyk,Mr. DC).
+4, Debtor:, 1257, Ferierra, Mr. L, Member:, 437, has a name that is inconsistent with Pastel (Ferreira, Mr. L).
+4, Debtor:, 1298, Van Zyl, Mrs L, Member:, 714, has a name that is inconsistent with Pastel (van Zyl, Mr. C).
+4, Debtor:, 525, Maren Johan, Member:, 757, has a name that is inconsistent with Pastel (Mare, Mr. J).
+5, Debtor:, 1028, Robbertse Elna, Member:, 226, has a swipe card (1) that does not exist in the Controlsoft database.
+5, Debtor:, 19, Botha Piet, Member:, 022, has a swipe card (8425404) that does not exist in the Controlsoft database.
+5, Debtor:, 44, Neethling Danie, Member:, 061, has a swipe card (8261211) that does not exist in the Controlsoft database.
+5, Debtor:, 525, Maren Johan, Member:, 757, has a swipe card (1) that does not exist in the Controlsoft database.
+5, Debtor:, 7, Badenhorst Casper, Member:, 004, has a swipe card (8242465) that does not exist in the Controlsoft database.
+5, Debtor:, 719, Glover, Mr G, Member:, 968, has a swipe card (8253792) that does not exist in the Controlsoft database.
+5, Debtor:, 733, Engelbrecht Laurika, Member:, 688, has a swipe card (8399809) that does not exist in the Controlsoft database.
+5, Debtor:, 791, Glover, Mr G, Member:, 968, has a swipe card (8385556) that does not exist in the Controlsoft database.
+5, Debtor:, 868, Glover, Mr G, Member:, 968, has a swipe card (8371352) that does not exist in the Controlsoft database.
+6, Debtor:, 1004, van Heerden Andries, Member:, 044, has a Member Number that is inconsistent with Controlsoft (133) (Swipe card:7781453).
+8, Debtor:, 105, Apel Jurgen, Member:, 147, Should be on Price Level 2 (R2390.00).
+8, Debtor:, 1080, van der Merwe Christa, Member:, 691, Should be on Price Level 2 (R9583.82).
+8, Debtor:, 1094, Fouche Pierre, Member:, 995, Should be on Price Level 2 (R1527.00).
+8, Debtor:, 110, Bredenkamp Andre, Member:, 154, Should be on Price Level 2 (R1531.98).
+8, Debtor:, 1114, Robinson Jacques, Member:, 221, Should be on Price Level 2 (R1545.01).
+8, Debtor:, 1117, Green Peter, Member:, 261, Should be on Price Level 2 (R2764.00).
+8, Debtor:, 1126, Ambler Smith Tina, Member:, 001, Should be on Price Level 2 (R1147.42).
+8, Debtor:, 1135, Grobbelaar Riaan, Member:, 774, Should be on Price Level 2 (R2135.00).
+8, Debtor:, 1182, Uys Barend, Member:, 599, Should be on Price Level 2 (R1200.00).
+8, Debtor:, 1234, Hoepfner, Mrs F, Member:, 314, Should be on Price Level 2 (R2000.00).
+8, Debtor:, 1260, Lourens, Mrs N, Member:, 752, Should be on Price Level 2 (R3145.00).
+8, Debtor:, 1272, Eksteen, Mr J, Member:, 368, Should be on Price Level 2 (R2235.00).
+8, Debtor:, 1288, Rossouw, Mr S, Member:, 375, Should be on Price Level 2 (R1000.00).
+8, Debtor:, 1290, Bernard, Mr M, Member:, 388, Should be on Price Level 2 (R1500.00).
+8, Debtor:, 1305, De Villiers, Mr J, Member:, 409, Should be on Price Level 2 (R2145.00).
+8, Debtor:, 1306, Kidson, Mr J, Member:, 420, Should be on Price Level 2 (R2417.00).
+8, Debtor:, 1309, De Villiers, Mr J, Member:, 409, Should be on Price Level 2 (R2145.00).
+8, Debtor:, 1312, Booyens, Mr K, Member:, 426, Should be on Price Level 2 (R3245.00).
+8, Debtor:, 1313, Botha, Mr J, Member:, 425, Should be on Price Level 2 (R3235.00).
+8, Debtor:, 1315, Pheiffer, Mr W, Member:, 474, Should be on Price Level 2 (R3235.00).
+8, Debtor:, 1317, Booyens, Mrs C, Member:, 426, Should be on Price Level 2 (R3245.00).
+8, Debtor:, 1320, De Villiers, Mr D, Member:, 467, Should be on Price Level 2 (R3145.00).
+8, Debtor:, 1321, Rich, Mr Charles, Member:, 768, Should be on Price Level 2 (R3335.00).
+8, Debtor:, 1322, Rich, Mrs Nelli, Member:, 768, Should be on Price Level 2 (R3335.00).
+8, Debtor:, 183, Stammer Fritz, Member:, 262, Should be on Price Level 2 (R2184.00).
+8, Debtor:, 204, Vergottini Lee, Member:, 288, Should be on Price Level 2 (R2184.00).
+8, Debtor:, 224, Hoepfner Gerhard, Member:, 314, Should be on Price Level 2 (R2000.00).
+8, Debtor:, 263, Fenn Rodney, Member:, 376, Should be on Price Level 2 (R1683.80).
+8, Debtor:, 274, Conradie Francois, Member:, 391, Should be on Price Level 2 (R3261.00).
+8, Debtor:, 296, Gordon Bill, Member:, 422, Should be on Price Level 2 (R2045.00).
+8, Debtor:, 305, Wallace Wally, Member:, 435, Should be on Price Level 2 (R3822.00).
+8, Debtor:, 373, van den Berg Rob, Member:, 527, Should be on Price Level 2 (R1203.37).
+8, Debtor:, 4, Ambler Smith Richard, Member:, 001, Should be on Price Level 2 (R1147.42).
+8, Debtor:, 418, Uys Barend, Member:, 599, Should be on Price Level 2 (R1200.00).
+8, Debtor:, 446, Rossouw Gys, Member:, 641, Should be on Price Level 2 (R1200.00).
+8, Debtor:, 461, Meyer Karel, Member:, 658, Should be on Price Level 2 (R2018.37).
+8, Debtor:, 484, van der Merwe Sippy, Member:, 691, Should be on Price Level 2 (R9583.82).
+8, Debtor:, 485, Scholtz Etienne, Member:, 692, Should be on Price Level 2 (R2215.00).
+8, Debtor:, 486, Phelps Steven, Member:, 693, Should be on Price Level 2 (R1945.00).
+8, Debtor:, 532, van der Merwe Sakkie, Member:, 767, Should be on Price Level 2 (R6701.40).
+8, Debtor:, 549, Miles Johan, Member:, 787, Should be on Price Level 2 (R1043.00).
+8, Debtor:, 739, Vergottini Maggie, Member:, 288, Should be on Price Level 2 (R2184.00).
+8, Debtor:, 766, Bredenkamp Andre Jnr, Member:, 154, Should be on Price Level 2 (R1531.98).
+8, Debtor:, 783, Fenn Shirley, Member:, 376, Should be on Price Level 2 (R1683.80).
+8, Debtor:, 786, Fouche Pierre, Member:, 995, Should be on Price Level 2 (R1527.00).
+8, Debtor:, 792, Gordon Debbie, Member:, 422, Should be on Price Level 2 (R2045.00).
+8, Debtor:, 82, Schutte Ben, Member:, 113, Should be on Price Level 2 (R1282.00).
+8, Debtor:, 856, Phelps Amanda, Member:, 693, Should be on Price Level 2 (R1945.00).
+8, Debtor:, 874, Schutte Catherine, Member:, 113, Should be on Price Level 2 (R1282.00).
+8, Debtor:, 880, Fouche Pierre, Member:, 995, Should be on Price Level 2 (R1527.00).
+8, Debtor:, 889, Uys Mariette, Member:, 599, Should be on Price Level 2 (R1200.00).
+8, Debtor:, 890, van den Berg Madre, Member:, 527, Should be on Price Level 2 (R1203.37).
+8, Debtor:, 995, Von Backstrom Mike, Member:, 121, Should be on Price Level 2 (R2618.27).
+9, Debtor:, 1004, van Heerden Andries, Member:, 044, Should be on Price Level 3 (R-2739.99).
+9, Debtor:, 410, Holden Rev Peter, Member:, 584, Should be on Price Level 3 (R0.00).
+9, Debtor:, 525, Maren Johan, Member:, 757, Should be on Price Level 3 (R0.00).
+9, Debtor:, 744, Grobbelaar Rita, Member:, 355, Should be on Price Level 3 (R0.00).
+9, Debtor:, 927, Grobbelaar Dr Terry , Member:, 355, Should be on Price Level 3 (R0.00).
+10, Platinum Price List 2, for item 116 (OUDEMEESTER GINGER) may not be 0.
+10, Platinum Price List 2, for item 118 (GRAPETIZER RED ) may not be 0.
+10, Platinum Price List 2, for item 122 (LIME CORDIAL) may not be 0.
+10, Platinum Price List 2, for item 127 (PASSION FRUIT) may not be 0.
+10, Platinum Price List 2, for item 130 (RED BULL) may not be 0.
+10, Platinum Price List 2, for item 136 (TOMATO COCKTAIL 200ML) may not be 0.
+10, Platinum Price List 2, for item 139 (AMSTEL QUART) may not be 0.
+10, Platinum Price List 2, for item 140 (BLACK LABEL 340) may not be 0.
+10, Platinum Price List 2, for item 141 (BLACK LABEL QUART ) may not be 0.
+10, Platinum Price List 2, for item 143 (B/F MANGO) may not be 0.
+10, Platinum Price List 2, for item 149 (CASTLE 340) may not be 0.
+10, Platinum Price List 2, for item 150 (CASTLE DRAUGHT 500ML) may not be 0.
+10, Platinum Price List 2, for item 151 (CASTLE DRAUGHT 300ML) may not be 0.
+10, Platinum Price List 2, for item 152 (CASTLE LITE 340) may not be 0.
+10, Platinum Price List 2, for item 156 (CASTLE QUART) may not be 0.
+10, Platinum Price List 2, for item 158 (HANSA 330) may not be 0.
+10, Platinum Price List 2, for item 163 (HANSA QUART 750) may not be 0.
+10, Platinum Price List 2, for item 164 (HEINEKEN 330) may not be 0.
+10, Platinum Price List 2, for item 168 (HUNTERS GOLD) may not be 0.
+10, Platinum Price List 2, for item 169 (MILLERS DRAFT) may not be 0.
+10, Platinum Price List 2, for item 180 (WINDHOEK LAGER) may not be 0.
+10, Platinum Price List 2, for item 181 (WINDHOEK LITE) may not be 0.
+10, Platinum Price List 2, for item 253 (JC LE ROUX) may not be 0.
+10, Platinum Price List 2, for item 258 (DROSTY HOFF EX LIGHT) may not be 0.
+10, Platinum Price List 2, for item 260 (DRSTDY GRAND CRU) may not be 0.
+10, Platinum Price List 2, for item 261 (DRSTDY STEIN ) may not be 0.
+10, Platinum Price List 2, for item 265 (GRACA) may not be 0.
+10, Platinum Price List 2, for item 279 (T OCEANS SAUVIGNON BLANC) may not be 0.
+10, Platinum Price List 2, for item 280 (THEUNISKRAAL RIESLING) may not be 0.
+10, Platinum Price List 2, for item 290 (CHATEAU LIBERTAS ) may not be 0.
+10, Platinum Price List 2, for item 300 (NEETHLINGSHOF CAB MER) may not be 0.
+10, Platinum Price List 2, for item 317 (NEDERBURG SPECIAL LATE HA) may not be 0.
+10, Platinum Price List 2, for item 325 (DROSTY EX LIGHT GLASS) may not be 0.
+10, Platinum Price List 2, for item 358 (KLIPDRIFT EXP) may not be 0.
+10, Platinum Price List 2, for item 360 (KLIPDRIFT PREM) may not be 0.
+10, Platinum Price List 2, for item 364 (WELLINGTON) may not be 0.
+10, Platinum Price List 2, for item 365 (BACARDI) may not be 0.
+10, Platinum Price List 2, for item 366 (CAPT MORGAN) may not be 0.
+10, Platinum Price List 2, for item 368 (RED HEART RUM) may not be 0.
+10, Platinum Price List 2, for item 369 (SPICED GOLD) may not be 0.
+10, Platinum Price List 2, for item 370 (BELLS) may not be 0.
+10, Platinum Price List 2, for item 377 (JACK DANIELS) may not be 0.
+10, Platinum Price List 2, for item 378 (JAMESONS) may not be 0.
+10, Platinum Price List 2, for item 381 (SCOTTISH LEADER) may not be 0.
+10, Platinum Price List 2, for item 384 (GORDONS GIN) may not be 0.
+10, Platinum Price List 2, for item 385 (MAINSTAY CANE) may not be 0.
+10, Platinum Price List 2, for item 386 (SMIRNOFF VODKA) may not be 0.
+10, Platinum Price List 2, for item 387 (SOUTHERN COMFORT) may not be 0.
+10, Platinum Price List 2, for item 388 (AMARULA) may not be 0.
+10, Platinum Price List 2, for item 389 (ARCHERS PEACH) may not be 0.
+10, Platinum Price List 2, for item 392 (OUDE MEESTER PEPPERMINT) may not be 0.
+10, Platinum Price List 2, for item 393 (CAPE/V TOFFEE) may not be 0.
+10, Platinum Price List 2, for item 398 (KAHLUA) may not be 0.
+10, Platinum Price List 2, for item 401 (LUPINI INFERNO BLUE) may not be 0.
+10, Platinum Price List 2, for item 402 (MALIBU) may not be 0.
+10, Platinum Price List 2, for item 403 (OLMECA SILVER) may not be 0.
+10, Platinum Price List 2, for item 404 (PONCHOS COFFEE TEQUILA) may not be 0.
+10, Platinum Price List 2, for item 407 (LUPINI BLACK) may not be 0.
+10, Platinum Price List 2, for item 408 (ZAPPA RED SAMBUCA) may not be 0.
+10, Platinum Price List 2, for item 410 (ALLESVERLOREN PORT) may not be 0.
+10, Platinum Price List 2, for item 413 (MONIS MEDIUM CREAM) may not be 0.
+10, Platinum Price List 2, for item 414 (OLD BROWN SHERRY) may not be 0.
+10, Platinum Price List 2, for item 423 (TANG) may not be 0.
+10, Platinum Price List 2, for item 424 (PO10C) may not be 0.
+10, Platinum Price List 2, for item 425 (COLA TONIC) may not be 0.
+10, Platinum Price List 2, for item 433 (BECKS) may not be 0.
+10, Platinum Price List 2, for item 438 (APPLETIZER) may not be 0.
+10, Platinum Price List 2, for item 440 (ORANGE JUICE) may not be 0.
+10, Platinum Price List 2, for item 441 (WATER ) may not be 0.
+10, Platinum Price List 2, for item 442 (HUNTERS EXTREME) may not be 0.
+10, Platinum Price List 2, for item 484 (JB WHISKYJB WHISKY) may not be 0.
+10, Platinum Price List 2, for item 491 (SPRITE ZERO 330) may not be 0.
+10, Platinum Price List 2, for item 497 (LEMONDADE 200ML) may not be 0.
+10, Platinum Price List 2, for item 5014 (AERO) may not be 0.
+10, Platinum Price List 2, for item 5016 (TOP DECK) may not be 0.
+10, Platinum Price List 2, for item 5022 (PEPPERMINT CRISP) may not be 0.
+10, Platinum Price List 2, for item 5027 (LAUNCHING FEE) may not be 0.
+10, Platinum Price List 2, for item 5028 (ICE SMALL) may not be 0.
+10, Platinum Price List 2, for item 629 (SPRINGBOKKIE) may not be 0.
+10, Platinum Price List 2, for item 641 (STONEY GINGER BEER) may not be 0.
+10, Platinum Price List 2, for item 642 (CAPE/V STRAWBERRY) may not be 0.
+10, Platinum Price List 2, for item 643 (CRAVEN A MENTHOL) may not be 0.
+10, Platinum Price List 2, for item 646 (LUPINI BLACK) may not be 0.
+10, Platinum Price List 2, for item 647 (ARCHERS CRANBERRY) may not be 0.
+10, Platinum Price List 2, for item 648 (GRACA ROSE) may not be 0.
+10, Platinum Price List 2, for item 651 (ARCHERS CRANBERRY 330 ML) may not be 0.
+10, Platinum Price List 2, for item 653 (FANTA PINEAPPLE) may not be 0.
+10, Platinum Price List 2, for item 655 (CARVO CHOCOLATE) may not be 0.
+10, Platinum Price List 2, for item 657 (CINZANO ROSSO) may not be 0.
+10, Platinum Price List 2, for item 659 (CINZANO DRY) may not be 0.
+10, Platinum Price List 2, for item 660 (TWO/O CAB/MERLOT) may not be 0.
+10, Platinum Price List 2, for item 664 (SPIN SMIRNOFF) may not be 0.
+10, Platinum Price List 2, for item 665 (D/HOF CLARET/S GLASS) may not be 0.
+10, Platinum Price List 2, for item 666 (D/HOF GLASS GRANDCRU) may not be 0.
+10, Platinum Price List 2, for item 675 (SALLYW NOUGAT) may not be 0.
+10, Platinum Price List 2, for item 677 (PONCHOS CHOC-CHILLI) may not be 0.
+10, Platinum Price List 2, for item 679 (B/F APPLE GINGER) may not be 0.
+10, Platinum Price List 2, for item 684 (B54) may not be 0.
+10, Platinum Price List 2, for item 686 (ZAPPA BLACK) may not be 0.
+10, Platinum Price List 2, for item 687 (4 X 4) may not be 0.
+10, Platinum Price List 2, for item 691 (GLENHOFF DRAUGHT) may not be 0.
+10, Platinum Price List 2, for item 693 (GLEN GRANT) may not be 0.
+10, Platinum Price List 2, for item 695 (GLEN/G 10 YR) may not be 0.
+10, Platinum Price List 2, for item 699 (D/HOF STEIN) may not be 0.
+10, Platinum Price List 2, for item 701 (D/HOF ROSE) may not be 0.
+10, Platinum Price List 2, for item 704 (CINZANO BIANCO) may not be 0.
+10, Platinum Price List 2, for item 705 (T/OCEANS PIN GRIGIO) may not be 0.
+10, Platinum Price List 2, for item 706 (JC LE ROUX ROSE) may not be 0.
+10, Platinum Price List 2, for item 710 (SALLYW BISCOTTI CREAM) may not be 0.
+10, Platinum Price List 2, for item 711 (PINACOLADA) may not be 0.
+10, Platinum Price List 2, for item 712 (PERONI) may not be 0.
+10, Platinum Price List 2, for item 719 (COMPRAL 12) may not be 0.
+10, Platinum Price List 2, for item 723 (OLOF BERGH) may not be 0.
+10, Platinum Price List 2, for item 725 (GLENHOFF DRAUGHT) may not be 0.
+10, Platinum Price List 2, for item 726 (V/LOV CAB/MERLOT) may not be 0.
+10, Platinum Price List 2, for item 727 (NON-ALCH COCK PINACOLADA) may not be 0.
+10, Platinum Price List 2, for item 728 (NON-ALCH STRAWB DACQUIRI) may not be 0.
+10, Platinum Price List 2, for item 730 (ICED TEA LEMON) may not be 0.
+10, Platinum Price List 2, for item 731 (ICED TEA RED FRUITS) may not be 0.
+10, Platinum Price List 2, for item 733 (SKYY VODKA LIMITED ED) may not be 0.
+10, Platinum Price List 2, for item 735 (COINTREAU) may not be 0.
+10, Platinum Price List 2, for item 736 (Ice Tea Peach) may not be 0.
+10, Platinum Price List 2, for item 738 (JIVE STRAWBERRY) may not be 0.
+10, Platinum Price List 2, for item 740 (OVERMEER Grand cru) may not be 0.
+10, Platinum Price List 2, for item 741 (B/F Cranberry) may not be 0.
+10, Platinum Price List 2, for item 744 (FRANGELICO) may not be 0.
+10, Platinum Price List 2, for item 746 (RUSSIAN BEAR VODKA) may not be 0.
+10, Platinum Price List 2, for item 747 (CHIPS BIG ) may not be 0.
+10, Platinum Price List 1, for item 749 (COSMOPOLITAN FRUIT LAGOON) may not be 0.
+10, Platinum Price List 2, for item 749 (COSMOPOLITAN FRUIT LAGOON) may not be 0.
+10, Platinum Price List 3, for item 749 (COSMOPOLITAN FRUIT LAGOON) may not be 0.
+10, Platinum Price List 2, for item 751 (ASHTON SAUV/BLANC) may not be 0.
+10, Platinum Price List 2, for item 753 (BOLD REDD`S) may not be 0.
+10, Platinum Price List 2, for item 754 (SAVANNA DARK) may not be 0.
+10, Platinum Price List 2, for item 755 (GRUNBERGER SPRITZGER) may not be 0.
+10, Platinum Price List 2, for item 757 (JOSE CUERVO GOLD) may not be 0.
+10, Platinum Price List 2, for item 759 (V/LOV PINOTAGE) may not be 0.
+10, Platinum Price List 2, for item 760 (V/LOV CREMOND) may not be 0.
+10, Platinum Price List 2, for item 761 (FLAVOURED WATER) may not be 0.
+10, Platinum Price List 2, for item 763 (BALLENTINES) may not be 0.
+10, Platinum Price List 2, for item 765 (OLMECA FUSION CHOC) may not be 0.
+10, Platinum Price List 2, for item 767 (BALLANTINES 12 YO) may not be 0.
+10, Platinum Price List 2, for item 772 (SAVANNA BIG) may not be 0.
+10, Platinum Price List 2, for item 774 (PONCHOS CARAMEL) may not be 0.
+10, Platinum Price List 2, for item 777 (V/L RIVER RED 500 ML) may not be 0.
+10, Platinum Price List 2, for item 778 (V/L VINO BLANC 500 ML) may not be 0.
+10, Platinum Price List 2, for item 780 (4COUS NAT SWEET 500 ML) may not be 0.
+10, Platinum Price List 2, for item 782 (HANSA DRAUGHT 300ML) may not be 0.
+10, Platinum Price List 2, for item 783 (HANSA DRAUGHT 500ML) may not be 0.
+10, Platinum Price List 2, for item 785 (REP RUM W/MELON) may not be 0.
+10, Platinum Price List 2, for item 787 (REP RUM P/APPLE) may not be 0.
+10, Platinum Price List 2, for item 791 (REP RUM CHERRY) may not be 0.
+10, Platinum Price List 2, for item 798 (Bols Special Single) may not be 0.
+10, Platinum Price List 3, for item 798 (Bols Special Single) may not be 0.
+10, Platinum Price List 2, for item 799 (BOLS SPECIAL SINGLE) may not be 0.
+10, Platinum Price List 3, for item 799 (BOLS SPECIAL SINGLE) may not be 0.
+10, Platinum Price List 2, for item 800 (BOLS SPECIAL DOUBLE) may not be 0.
+10, Platinum Price List 3, for item 800 (BOLS SPECIAL DOUBLE) may not be 0.
+10, Platinum Price List 2, for item 806 (Ponchos Special Caramel) may not be 0.
+10, Platinum Price List 3, for item 806 (Ponchos Special Caramel) may not be 0.
+10, Platinum Price List 2, for item 807 (Ponchos special Choc chil) may not be 0.
+10, Platinum Price List 3, for item 807 (Ponchos special Choc chil) may not be 0.
+10, Platinum Price List 2, for item 808 (Ponchos Special Coffee) may not be 0.
+10, Platinum Price List 3, for item 808 (Ponchos Special Coffee) may not be 0.
+10, Platinum Price List 2, for item 810 (J/Walker Red Label) may not be 0.
+10, Platinum Price List 2, for item 811 (Fly Fish Orange) may not be 0.
+10, Platinum Price List 2, for item 812 (AMSTEL DUMP 330 H/O) may not be 0.
+10, Platinum Price List 3, for item 812 (AMSTEL DUMP 330 H/O) may not be 0.
+10, Platinum Price List 2, for item 813 (AMSTEL QUART H/O) may not be 0.
+10, Platinum Price List 3, for item 813 (AMSTEL QUART H/O) may not be 0.
+10, Platinum Price List 2, for item 814 (WINDHOEK LAGER H/O) may not be 0.
+10, Platinum Price List 3, for item 814 (WINDHOEK LAGER H/O) may not be 0.
+10, Platinum Price List 2, for item 815 (HEINEKEN H/O) may not be 0.
+10, Platinum Price List 3, for item 815 (HEINEKEN H/O) may not be 0.
+10, Platinum Price List 2, for item 816 (HEINEKEN QUART H/O) may not be 0.
+10, Platinum Price List 3, for item 816 (HEINEKEN QUART H/O) may not be 0.
+10, Platinum Price List 2, for item 817 (HANSA 330 H/O) may not be 0.
+10, Platinum Price List 3, for item 817 (HANSA 330 H/O) may not be 0.
+10, Platinum Price List 2, for item 818 (HANSA DRGHT 330 H/O) may not be 0.
+10, Platinum Price List 3, for item 818 (HANSA DRGHT 330 H/O) may not be 0.
+10, Platinum Price List 2, for item 819 (HANSA DRGHT 500 H/O) may not be 0.
+10, Platinum Price List 3, for item 819 (HANSA DRGHT 500 H/O) may not be 0.
+10, Platinum Price List 2, for item 820 (CASTLE DRGHT 500 H/O) may not be 0.
+10, Platinum Price List 3, for item 820 (CASTLE DRGHT 500 H/O) may not be 0.
+10, Platinum Price List 2, for item 821 (G/HOFF DRGHT 500 H/O) may not be 0.
+10, Platinum Price List 3, for item 821 (G/HOFF DRGHT 500 H/O) may not be 0.
+10, Platinum Price List 2, for item 822 (REDDS COLD H/O) may not be 0.
+10, Platinum Price List 3, for item 822 (REDDS COLD H/O) may not be 0.
+10, Platinum Price List 2, for item 823 (REDDS DRY H/O) may not be 0.
+10, Platinum Price List 3, for item 823 (REDDS DRY H/O) may not be 0.
+10, Platinum Price List 2, for item 824 (B/F APPLE GINGER H/O) may not be 0.
+10, Platinum Price List 3, for item 824 (B/F APPLE GINGER H/O) may not be 0.
+10, Platinum Price List 2, for item 825 (B/F CRANBERRY H/O) may not be 0.
+10, Platinum Price List 3, for item 825 (B/F CRANBERRY H/O) may not be 0.
+10, Platinum Price List 2, for item 826 (B/F LAVISH LEMON H/O) may not be 0.
+10, Platinum Price List 3, for item 826 (B/F LAVISH LEMON H/O) may not be 0.
+10, Platinum Price List 2, for item 827 (B/F MANGO H/O) may not be 0.
+10, Platinum Price List 3, for item 827 (B/F MANGO H/O) may not be 0.
+10, Platinum Price List 2, for item 828 (B/F STRAWBERRY H/O) may not be 0.
+10, Platinum Price List 3, for item 828 (B/F STRAWBERRY H/O) may not be 0.
+10, Platinum Price List 2, for item 829 (SMIRNOFF STORM H/O) may not be 0.
+10, Platinum Price List 3, for item 829 (SMIRNOFF STORM H/O) may not be 0.
+10, Platinum Price List 2, for item 830 (SMIRNOFF SPIN H/O) may not be 0.
+10, Platinum Price List 3, for item 830 (SMIRNOFF SPIN H/O) may not be 0.
+10, Platinum Price List 2, for item 831 (SMIRNOFF DBL BLACK H/O) may not be 0.
+10, Platinum Price List 3, for item 831 (SMIRNOFF DBL BLACK H/O) may not be 0.
+10, Platinum Price List 2, for item 832 (RED ALERT H/O) may not be 0.
+10, Platinum Price List 3, for item 832 (RED ALERT H/O) may not be 0.
+10, Platinum Price List 2, for item 833 (Jameson  H/O) may not be 0.
+10, Platinum Price List 3, for item 833 (Jameson  H/O) may not be 0.
+10, Platinum Price List 2, for item 834 (SCOOTISH LEADER H/O) may not be 0.
+10, Platinum Price List 3, for item 834 (SCOOTISH LEADER H/O) may not be 0.
+10, Platinum Price List 2, for item 835 (BELLS H/O) may not be 0.
+10, Platinum Price List 3, for item 835 (BELLS H/O) may not be 0.
+10, Platinum Price List 2, for item 836 (SCOTTISH LEADER H/O) may not be 0.
+10, Platinum Price List 3, for item 836 (SCOTTISH LEADER H/O) may not be 0.
+10, Platinum Price List 2, for item 837 (WHITE HORSE H/O) may not be 0.
+10, Platinum Price List 3, for item 837 (WHITE HORSE H/O) may not be 0.
+10, Platinum Price List 2, for item 838 (J/Walker red label H/O) may not be 0.
+10, Platinum Price List 3, for item 838 (J/Walker red label H/O) may not be 0.
+10, Platinum Price List 2, for item 839 (JB WHISKEY H/O) may not be 0.
+10, Platinum Price List 3, for item 839 (JB WHISKEY H/O) may not be 0.
+10, Platinum Price List 2, for item 840 (BALLANTYNES H/O) may not be 0.
+10, Platinum Price List 3, for item 840 (BALLANTYNES H/O) may not be 0.
+10, Platinum Price List 2, for item 841 (FISH EAGLE H/O) may not be 0.
+10, Platinum Price List 3, for item 841 (FISH EAGLE H/O) may not be 0.
+10, Platinum Price List 2, for item 842 (WELLINGTON H/O) may not be 0.
+10, Platinum Price List 3, for item 842 (WELLINGTON H/O) may not be 0.
+10, Platinum Price List 2, for item 843 (KLIPDRIFT EXPORT H/O) may not be 0.
+10, Platinum Price List 3, for item 843 (KLIPDRIFT EXPORT H/O) may not be 0.
+10, Platinum Price List 1, for item 844 (KLIPDRIFT PRREM H/O) may not be 0.
+10, Platinum Price List 2, for item 844 (KLIPDRIFT PRREM H/O) may not be 0.
+10, Platinum Price List 3, for item 844 (KLIPDRIFT PRREM H/O) may not be 0.
+10, Platinum Price List 2, for item 845 (OLOF BERGH H/O) may not be 0.
+10, Platinum Price List 3, for item 845 (OLOF BERGH H/O) may not be 0.
+10, Platinum Price List 2, for item 846 (RED HEART RUM H/O) may not be 0.
+10, Platinum Price List 3, for item 846 (RED HEART RUM H/O) may not be 0.
+10, Platinum Price List 2, for item 847 (OLMEGA SILVER H/O) may not be 0.
+10, Platinum Price List 3, for item 847 (OLMEGA SILVER H/O) may not be 0.
+10, Platinum Price List 2, for item 848 (JOSE CUERVO GOLD H/O) may not be 0.
+10, Platinum Price List 3, for item 848 (JOSE CUERVO GOLD H/O) may not be 0.
+10, Platinum Price List 2, for item 849 (PO10C H/O) may not be 0.
+10, Platinum Price List 3, for item 849 (PO10C H/O) may not be 0.
+10, Platinum Price List 2, for item 850 (ZAPPA RED H/O) may not be 0.
+10, Platinum Price List 3, for item 850 (ZAPPA RED H/O) may not be 0.
+10, Platinum Price List 2, for item 851 (ZAPPA BLACK H/O) may not be 0.
+10, Platinum Price List 3, for item 851 (ZAPPA BLACK H/O) may not be 0.
+10, Platinum Price List 2, for item 852 (TANG H/O) may not be 0.
+10, Platinum Price List 3, for item 852 (TANG H/O) may not be 0.
+10, Platinum Price List 2, for item 853 (JAGERMEISTER H/O) may not be 0.
+10, Platinum Price List 3, for item 853 (JAGERMEISTER H/O) may not be 0.
+10, Platinum Price List 2, for item 854 (LUPINI GOLD H/O) may not be 0.
+10, Platinum Price List 3, for item 854 (LUPINI GOLD H/O) may not be 0.
+10, Platinum Price List 2, for item 855 (LUPINI BLACK H/O) may not be 0.
+10, Platinum Price List 3, for item 855 (LUPINI BLACK H/O) may not be 0.
+10, Platinum Price List 2, for item 856 (LUPINI BLUE H/O) may not be 0.
+10, Platinum Price List 3, for item 856 (LUPINI BLUE H/O) may not be 0.
+10, Platinum Price List 2, for item 858 (WELLINGTON SPECIAL) may not be 0.
+10, Platinum Price List 3, for item 858 (WELLINGTON SPECIAL) may not be 0.
+10, Platinum Price List 2, for item 859 (V/Loveren River Red 750ml) may not be 0.
+10, Platinum Price List 2, for item 861 (Libido) may not be 0.
+10, Platinum Price List 2, for item 863 (Mango Daiquiri) may not be 0.
+10, Platinum Price List 2, for item 865 (Mojito) may not be 0.
+10, Platinum Price List 2, for item 867 (On the Beach) may not be 0.
+10, Platinum Price List 2, for item 869 (Pina Colada) may not be 0.
+10, Platinum Price List 2, for item 871 (S/Berry Daiquiri) may not be 0.
+10, Platinum Price List 2, for item 872 (Red Square Energy N/A) may not be 0.
+10, Platinum Price List 2, for item 873 (Red Square Energy) may not be 0.
+10, Platinum Price List 2, for item 874 (Red Square Black) may not be 0.
+10, Platinum Price List 2, for item 875 (Red Square Blue) may not be 0.
+10, Platinum Price List 2, for item 876 (Red Square Gold) may not be 0.
+10, Platinum Price List 2, for item 877 (Red Square Pink) may not be 0.
+10, Platinum Price List 2, for item 878 (Red Square Purple) may not be 0.
+10, Platinum Price List 2, for item 879 (Red Square Red) may not be 0.
+10, Platinum Price List 2, for item 881 (Strawberry Lips) may not be 0.
+10, Platinum Price List 2, for item 882 (Richelieu Special) may not be 0.
+10, Platinum Price List 2, for item 883 (Johnnie Wlaker Special) may not be 0.
+10, Platinum Price List 3, for item 883 (Johnnie Wlaker Special) may not be 0.
+11, Platinum Price List 1, for item 118 (GRAPETIZER RED ) is below the minimum GP of 42% (26.5%).
+11, Platinum Price List 1, for item 253 (JC LE ROUX) is below the minimum GP of 42% (38.9%).
+11, Platinum Price List 1, for item 290 (CHATEAU LIBERTAS ) is below the minimum GP of 42% (41.3%).
+11, Platinum Price List 1, for item 300 (NEETHLINGSHOF CAB MER) is below the minimum GP of 42% (29.5%).
+11, Platinum Price List 1, for item 384 (GORDONS GIN) is below the minimum GP of 42% (10.2%).
+11, Platinum Price List 1, for item 414 (OLD BROWN SHERRY) is below the minimum GP of 42% (6.5%).
+11, Platinum Price List 1, for item 438 (APPLETIZER) is below the minimum GP of 42% (31.0%).
+11, Platinum Price List 1, for item 471 (V/LOV CHARDONAY) is below the minimum GP of 42% (40.7%).
+11, Platinum Price List 1, for item 475 (FDC SHIRAZ) is below the minimum GP of 42% (31.2%).
+11, Platinum Price List 1, for item 478 (D/HILLS MERLOT) is below the minimum GP of 42% (40.7%).
+11, Platinum Price List 1, for item 480 (NEDERBURG STEIN) is below the minimum GP of 42% (33.8%).
+11, Platinum Price List 1, for item 499 (GINGER ALE 200ML) is below the minimum GP of 42% (29.2%).
+11, Platinum Price List 1, for item 5008 (BILTONG) is below the minimum GP of 42% (27.8%).
+11, Platinum Price List 1, for item 5010 (MATCHES) is below the minimum GP of 42% (-532.0%).
+11, Platinum Price List 1, for item 5016 (TOP DECK) is below the minimum GP of 42% (39.3%).
+11, Platinum Price List 1, for item 5017 (STUYVESANT RED/BLUE) is below the minimum GP of 42% (32.6%).
+11, Platinum Price List 1, for item 5018 (MARLBORO BLUE/RED) is below the minimum GP of 42% (-48.6%).
+11, Platinum Price List 1, for item 5019 (DUNHILL) is below the minimum GP of 42% (27.4%).
+11, Platinum Price List 1, for item 5020 (CAMEL CLAS/LIGHTS) is below the minimum GP of 42% (27.7%).
+11, Platinum Price List 1, for item 5021 (KENT SPEC/SILVER) is below the minimum GP of 42% (32.6%).
+11, Platinum Price List 1, for item 5024 (WINE GUMS) is below the minimum GP of 42% (40.9%).
+11, Platinum Price List 1, for item 5029 (KING CONE ASSORTED) is below the minimum GP of 42% (32.4%).
+11, Platinum Price List 1, for item 5030 (CHOC STICK MILKY) is below the minimum GP of 42% (40.1%).
+11, Platinum Price List 1, for item 5031 (HEAVEN ALL) is below the minimum GP of 42% (35.4%).
+11, Platinum Price List 1, for item 5032 (BUBBLE CHUMS) is below the minimum GP of 42% (38.9%).
+11, Platinum Price List 1, for item 5033 (BERRY MAID) is below the minimum GP of 42% (39.1%).
+11, Platinum Price List 1, for item 5034 (JELLYSTIX) is below the minimum GP of 42% (38.4%).
+11, Platinum Price List 1, for item 5035 (RED ALERT PO10c) is below the minimum GP of 42% (37.4%).
+11, Platinum Price List 1, for item 5036 (WAFER WIZZ) is below the minimum GP of 42% (34.8%).
+11, Platinum Price List 1, for item 517 (BEACH HOUSE ROSè) is below the minimum GP of 42% (35.9%).
+11, Platinum Price List 1, for item 624 (JELLY TOTS) is below the minimum GP of 42% (38.0%).
+11, Platinum Price List 1, for item 626 (CHESTERF RED/BLUE) is below the minimum GP of 42% (37.1%).
+11, Platinum Price List 1, for item 632 (SEAL ISLAND ICE TEA) is below the minimum GP of 42% (32.7%).
+11, Platinum Price List 1, for item 643 (CRAVEN A MENTHOL) is below the minimum GP of 42% (28.7%).
+11, Platinum Price List 1, for item 644 (WONDER BAR) is below the minimum GP of 42% (-99.0%).
+11, Platinum Price List 1, for item 651 (ARCHERS CRANBERRY 330 ML) is below the minimum GP of 42% (33.6%).
+11, Platinum Price List 1, for item 706 (JC LE ROUX ROSE) is below the minimum GP of 42% (37.8%).
+11, Platinum Price List 1, for item 714 (WOOD) is below the minimum GP of 42% (26.8%).
+11, Platinum Price List 1, for item 719 (COMPRAL 12) is below the minimum GP of 42% (-75.5%).
+11, Platinum Price List 1, for item 729 (ORANGE MAID) is below the minimum GP of 42% (39.1%).
+11, Platinum Price List 1, for item 733 (SKYY VODKA LIMITED ED) is below the minimum GP of 42% (41.1%).
+11, Platinum Price List 1, for item 738 (JIVE STRAWBERRY) is below the minimum GP of 42% (39.2%).
+11, Platinum Price List 1, for item 742 (GRAPETIZER WHITE) is below the minimum GP of 42% (23.4%).
+11, Platinum Price List 1, for item 744 (FRANGELICO) is below the minimum GP of 42% (40.2%).
+11, Platinum Price List 1, for item 751 (ASHTON SAUV/BLANC) is below the minimum GP of 42% (-643.6%).
+11, Platinum Price List 1, for item 752 (ROLO) is below the minimum GP of 42% (38.7%).
+11, Platinum Price List 1, for item 758 (BAR ONE CUP) is below the minimum GP of 42% (31.7%).
+11, Platinum Price List 1, for item 772 (SAVANNA BIG) is below the minimum GP of 42% (34.8%).
+11, Platinum Price List 1, for item 782 (HANSA DRAUGHT 300ML) is below the minimum GP of 42% (38.3%).
+11, Platinum Price List 1, for item 783 (HANSA DRAUGHT 500ML) is below the minimum GP of 42% (33.2%).
+11, Platinum Price List 1, for item 797 (2 lt Cold Drinks) is below the minimum GP of 42% (29.3%).
+11, Platinum Price List 1, for item 802 (Mango Juice) is below the minimum GP of 42% (-175.8%).
+11, Platinum Price List 1, for item 805 (Tropical Fruit) is below the minimum GP of 42% (-287.7%).
+11, Platinum Price List 1, for item 806 (Ponchos Special Caramel) is below the minimum GP of 42% (30.8%).
+11, Platinum Price List 1, for item 807 (Ponchos special Choc chil) is below the minimum GP of 42% (33.4%).
+11, Platinum Price List 1, for item 808 (Ponchos Special Coffee) is below the minimum GP of 42% (32.3%).
+11, Platinum Price List 1, for item 844 (KLIPDRIFT PRREM H/O) is below the minimum GP of 42% (-Infinity%).
+11, Platinum Price List 1, for item 857 (Firelighters) is below the minimum GP of 42% (32.8%).
+12, Platinum Price List 3, for item 280 (THEUNISKRAAL RIESLING) is above the maximum discount of 20%. (22.8%).
+12, Platinum Price List 3, for item 491 (SPRITE ZERO 330) is above the maximum discount of 20%. (22.4%).
+12, Platinum Price List 3, for item 495 (DRY LEMON ) is above the maximum discount of 20%. (22.4%).
+12, Platinum Price List 3, for item 5027 (LAUNCHING FEE) is above the maximum discount of 20%. (40.0%).
+12, Platinum Price List 3, for item 5028 (ICE SMALL) is above the maximum discount of 20%. (21.9%).
+12, Platinum Price List 3, for item 635 (HEINEKEN QUART 650) is above the maximum discount of 20%. (30.5%).
+12, Platinum Price List 3, for item 678 (REDDS DRY) is above the maximum discount of 20%. (23.3%).
+12, Platinum Price List 3, for item 793 (Santy`s Bitters) is above the maximum discount of 20%. (30.0%).
+12, Platinum Price List 3, for item 794 (FLY FISH LEMON) is above the maximum discount of 20%. (22.9%).
+12, Platinum Price List 3, for item 795 (SMIRNOFF DBL BLACK) is above the maximum discount of 20%. (25.0%).
+12, Platinum Price List 3, for item 798 (Bols Special Single) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 799 (BOLS SPECIAL SINGLE) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 800 (BOLS SPECIAL DOUBLE) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 806 (Ponchos Special Caramel) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 807 (Ponchos special Choc chil) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 808 (Ponchos Special Coffee) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 812 (AMSTEL DUMP 330 H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 813 (AMSTEL QUART H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 814 (WINDHOEK LAGER H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 815 (HEINEKEN H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 816 (HEINEKEN QUART H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 817 (HANSA 330 H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 818 (HANSA DRGHT 330 H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 819 (HANSA DRGHT 500 H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 820 (CASTLE DRGHT 500 H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 821 (G/HOFF DRGHT 500 H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 822 (REDDS COLD H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 823 (REDDS DRY H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 824 (B/F APPLE GINGER H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 825 (B/F CRANBERRY H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 826 (B/F LAVISH LEMON H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 827 (B/F MANGO H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 828 (B/F STRAWBERRY H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 829 (SMIRNOFF STORM H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 830 (SMIRNOFF SPIN H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 831 (SMIRNOFF DBL BLACK H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 832 (RED ALERT H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 833 (Jameson  H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 834 (SCOOTISH LEADER H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 835 (BELLS H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 836 (SCOTTISH LEADER H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 837 (WHITE HORSE H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 838 (J/Walker red label H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 839 (JB WHISKEY H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 840 (BALLANTYNES H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 841 (FISH EAGLE H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 842 (WELLINGTON H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 843 (KLIPDRIFT EXPORT H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 845 (OLOF BERGH H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 846 (RED HEART RUM H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 847 (OLMEGA SILVER H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 848 (JOSE CUERVO GOLD H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 849 (PO10C H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 850 (ZAPPA RED H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 851 (ZAPPA BLACK H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 852 (TANG H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 853 (JAGERMEISTER H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 854 (LUPINI GOLD H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 855 (LUPINI BLACK H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 856 (LUPINI BLUE H/O) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 858 (WELLINGTON SPECIAL) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 883 (Johnnie Wlaker Special) is above the maximum discount of 20%. (100.0%).
+Done...
+
+
+ *** End ***

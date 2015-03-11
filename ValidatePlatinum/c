@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#javac -cp ..:.:./*:./build/classes -d ./build/classes src/mb/*.java
+javac -cp .:./*:./build/classes -d ./build/classes src/mb/*.java
+
+

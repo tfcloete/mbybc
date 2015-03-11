@@ -1,0 +1,144 @@
+Thu Nov 14 20:09:15 SAST 2013
+(Daily)
+
+ *** The following inconsistencies were found in the Platinum Database ***
+
+
+ValidatePlatinum, build number: 8
+
+*** Validation type summary ***
+Validation type: 2 = 1, (No swipe card in Platinum)
+Validation type: 4 = 2, (Name inconsistent with Pastel)
+Validation type: 5 = 3, (Swipecard inconsistent with Controlsoft)
+Validation type: 8 = 1, (Should be on price level 2)
+Validation type: 9 = 30, (Should be on price level 3)
+Validation type: 10 = 6, (No price)
+Validation type: 11 = 70, (Price 1 below margin)
+Validation type: 12 = 5, (Price 3 high discount)
+Validation type: 13 = 2, (Blocked member})
+*** end ***
+
+2, Debtor:, 1007, Viljoen Jaco, Member:, 134, has no swipe card in Platinum.
+4, Debtor:, 68, Oosthuizen Carina, Member:, 093, has a name that is inconsistent with Pastel (Struthers, Ms. CM).
+4, Debtor:, 729, Böhme Wally, Member:, 983, has a name that is inconsistent with Pastel (Bohme, Mr W ( Loss Adjustors)).
+5, Debtor:, 1027, Robbertse Paul, Member:, 226, has a swipe card (1) that does not exist in the Controlsoft database.
+5, Debtor:, 1028, Robbertse Elna, Member:, 226, has a swipe card (1) that does not exist in the Controlsoft database.
+5, Debtor:, 372, Barker Gary, Member:, 526, has a swipe card (1) that does not exist in the Controlsoft database.
+8, Debtor:, 549, Miles Johan, Member:, 787, Should be on Price Level 2 (R1043.00).
+9, Debtor:, 1016, Steenkamp Lize-Marè, Member:, 612, Should be on Price Level 3 (R-140.00).
+9, Debtor:, 1017, Wright Tyldesly, Member:, 863, Should be on Price Level 3 (R0.00).
+9, Debtor:, 1074, Botha Christo, Member:, 213, Should be on Price Level 3 (R0.00).
+9, Debtor:, 112, Calitz Andre, Member:, 158, Should be on Price Level 3 (R875.00).
+9, Debtor:, 1165, Malyon Annetjie, Member:, 782, Should be on Price Level 3 (R100.00).
+9, Debtor:, 14, Beijer Cor, Member:, 014, Should be on Price Level 3 (R0.00).
+9, Debtor:, 209, Anderson Herman, Member:, 296, Should be on Price Level 3 (R0.00).
+9, Debtor:, 224, Hoepfner Gerhard, Member:, 314, Should be on Price Level 3 (R-400.00).
+9, Debtor:, 239, van Rooyen Daniel, Member:, 336, Should be on Price Level 3 (R0.00).
+9, Debtor:, 252, Lotter Johann, Member:, 357, Should be on Price Level 3 (R0.00).
+9, Debtor:, 262, von Killian  Waldi, Member:, 370, Should be on Price Level 3 (R0.00).
+9, Debtor:, 276, Coetzee Sarel, Member:, 393, Should be on Price Level 3 (R0.00).
+9, Debtor:, 416, Erasmus Tom, Member:, 597, Should be on Price Level 3 (R0.00).
+9, Debtor:, 429, Steenkamp Rian, Member:, 612, Should be on Price Level 3 (R-140.00).
+9, Debtor:, 44, Neethling Danie, Member:, 061, Should be on Price Level 3 (R690.00).
+9, Debtor:, 443, Visagie Marais, Member:, 638, Should be on Price Level 3 (R0.00).
+9, Debtor:, 544, Malyon Norman, Member:, 782, Should be on Price Level 3 (R100.00).
+9, Debtor:, 553, van Zyl Christo, Member:, 792, Should be on Price Level 3 (R-41.02).
+9, Debtor:, 57, Moorcroft Jacobus, Member:, 081, Should be on Price Level 3 (R-41.02).
+9, Debtor:, 616, Wright Ruben, Member:, 863, Should be on Price Level 3 (R0.00).
+9, Debtor:, 713, Burger Johan, Member:, 962, Should be on Price Level 3 (R0.00).
+9, Debtor:, 732, van Zyl  Anna-Marie, Member:, 792, Should be on Price Level 3 (R-41.02).
+9, Debtor:, 745, Anderson Andy, Member:, 296, Should be on Price Level 3 (R0.00).
+9, Debtor:, 746, Anderson Andy, Member:, 296, Should be on Price Level 3 (R0.00).
+9, Debtor:, 747, Anderson Jenny, Member:, 296, Should be on Price Level 3 (R0.00).
+9, Debtor:, 748, Anderson Jenny, Member:, 296, Should be on Price Level 3 (R0.00).
+9, Debtor:, 773, Coetzee Ericka, Member:, 393, Should be on Price Level 3 (R0.00).
+9, Debtor:, 985, Burger Hester, Member:, 962, Should be on Price Level 3 (R0.00).
+9, Debtor:, 994, Von Backstrom Michael, Member:, 122, Should be on Price Level 3 (R-290.00).
+9, Debtor:, 995, Von Backstrom Mike, Member:, 121, Should be on Price Level 3 (R545.27).
+10, Platinum Price List 3, for item 705 (T/OCEANS PIN GRIGIO) may not be 0.
+10, Platinum Price List 2, for item 747 (CHIPS BIG ) may not be 0.
+10, Platinum Price List 1, for item 749 (COSMOPOLITAN FRUIT LAGOON) may not be 0.
+10, Platinum Price List 2, for item 749 (COSMOPOLITAN FRUIT LAGOON) may not be 0.
+10, Platinum Price List 3, for item 749 (COSMOPOLITAN FRUIT LAGOON) may not be 0.
+10, Platinum Price List 3, for item 772 (SAVANNA BIG) may not be 0.
+11, Platinum Price List 1, for item 118 (GRAPETIZER RED ) is below the minimum GP of 42% (28.1%).
+11, Platinum Price List 1, for item 130 (RED BULL) is below the minimum GP of 42% (27.7%).
+11, Platinum Price List 1, for item 150 (CASTLE DRAUGHT 500ML) is below the minimum GP of 42% (23.0%).
+11, Platinum Price List 1, for item 151 (CASTLE DRAUGHT 300ML) is below the minimum GP of 42% (34.8%).
+11, Platinum Price List 1, for item 253 (JC LE ROUX) is below the minimum GP of 42% (36.7%).
+11, Platinum Price List 1, for item 290 (CHATEAU LIBERTAS ) is below the minimum GP of 42% (39.5%).
+11, Platinum Price List 1, for item 300 (NEETHLINGSHOF CAB MER) is below the minimum GP of 42% (27.7%).
+11, Platinum Price List 1, for item 310 (ZONNEBLOEM MERLOT) is below the minimum GP of 42% (41.8%).
+11, Platinum Price List 1, for item 438 (APPLETIZER) is below the minimum GP of 42% (32.7%).
+11, Platinum Price List 1, for item 469 (BEACH HOUSE WHITE) is below the minimum GP of 42% (34.1%).
+11, Platinum Price List 1, for item 471 (V/LOV CHARDONAY) is below the minimum GP of 42% (39.4%).
+11, Platinum Price List 1, for item 473 (V/LOV BLANC D/BLANC) is below the minimum GP of 42% (39.5%).
+11, Platinum Price List 1, for item 475 (FDC SHIRAZ) is below the minimum GP of 42% (22.4%).
+11, Platinum Price List 1, for item 478 (D/HILLS MERLOT) is below the minimum GP of 42% (38.4%).
+11, Platinum Price List 1, for item 485 (COKE 330ML) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 487 (COKE LIGHT 330ML) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 488 (SPRITE 330ML) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 489 (FANTA GRAPE 330ML) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 491 (SPRITE ZERO 330) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 492 (SPARBERRY 330) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 493 (CREAMSODA 330ML) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 495 (DRY LEMON ) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 499 (GINGER ALE 200ML) is below the minimum GP of 42% (15.0%).
+11, Platinum Price List 1, for item 5008 (BILTONG) is below the minimum GP of 42% (22.5%).
+11, Platinum Price List 1, for item 5010 (MATCHES) is below the minimum GP of 42% (38.0%).
+11, Platinum Price List 1, for item 5015 (TEX MINI) is below the minimum GP of 42% (-576.8%).
+11, Platinum Price List 1, for item 5016 (TOP DECK) is below the minimum GP of 42% (39.2%).
+11, Platinum Price List 1, for item 5017 (STUYVESANT RED/BLUE) is below the minimum GP of 42% (35.2%).
+11, Platinum Price List 1, for item 5019 (DUNHILL) is below the minimum GP of 42% (30.8%).
+11, Platinum Price List 1, for item 5020 (CAMEL CLAS/LIGHTS) is below the minimum GP of 42% (28.8%).
+11, Platinum Price List 1, for item 5021 (KENT SPEC/SILVER) is below the minimum GP of 42% (35.1%).
+11, Platinum Price List 1, for item 5022 (PEPPERMINT CRISP) is below the minimum GP of 42% (40.1%).
+11, Platinum Price List 1, for item 5024 (WINE GUMS) is below the minimum GP of 42% (37.6%).
+11, Platinum Price List 1, for item 5029 (KING CONE ASSORTED) is below the minimum GP of 42% (32.4%).
+11, Platinum Price List 1, for item 5030 (CHOC STICK MILKY) is below the minimum GP of 42% (40.1%).
+11, Platinum Price List 1, for item 5031 (HEAVEN ALL) is below the minimum GP of 42% (35.7%).
+11, Platinum Price List 1, for item 5032 (BUBBLE CHUMS) is below the minimum GP of 42% (38.9%).
+11, Platinum Price List 1, for item 5033 (BERRY MAID) is below the minimum GP of 42% (39.1%).
+11, Platinum Price List 1, for item 5034 (JELLYSTIX) is below the minimum GP of 42% (38.4%).
+11, Platinum Price List 1, for item 5035 (RED ALERT PO10c) is below the minimum GP of 42% (34.8%).
+11, Platinum Price List 1, for item 5036 (WAFER WIZZ) is below the minimum GP of 42% (34.8%).
+11, Platinum Price List 1, for item 510 (TAB ) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 511 (COKE ZERO 330ML) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 513 (FANTA ORANGE 330ML) is below the minimum GP of 42% (40.1%).
+11, Platinum Price List 1, for item 517 (BEACH HOUSE ROSè) is below the minimum GP of 42% (32.1%).
+11, Platinum Price List 1, for item 601 (JAGERMEISTER) is below the minimum GP of 42% (41.0%).
+11, Platinum Price List 1, for item 626 (CHESTERF RED/BLUE) is below the minimum GP of 42% (39.4%).
+11, Platinum Price List 1, for item 635 (HEINEKEN QUART 650) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 641 (STONEY GINGER BEER) is below the minimum GP of 42% (41.0%).
+11, Platinum Price List 1, for item 643 (CRAVEN A MENTHOL) is below the minimum GP of 42% (28.7%).
+11, Platinum Price List 1, for item 644 (WONDER BAR) is below the minimum GP of 42% (-538.8%).
+11, Platinum Price List 1, for item 651 (ARCHERS CRANBERRY 330 ML) is below the minimum GP of 42% (35.2%).
+11, Platinum Price List 1, for item 653 (FANTA PINEAPPLE) is below the minimum GP of 42% (40.0%).
+11, Platinum Price List 1, for item 706 (JC LE ROUX ROSE) is below the minimum GP of 42% (28.6%).
+11, Platinum Price List 1, for item 714 (WOOD) is below the minimum GP of 42% (26.8%).
+11, Platinum Price List 1, for item 719 (COMPRAL 12) is below the minimum GP of 42% (-75.5%).
+11, Platinum Price List 1, for item 729 (ORANGE MAID) is below the minimum GP of 42% (39.1%).
+11, Platinum Price List 1, for item 738 (JIVE STRAWBERRY) is below the minimum GP of 42% (39.2%).
+11, Platinum Price List 1, for item 742 (GRAPETIZER WHITE) is below the minimum GP of 42% (23.7%).
+11, Platinum Price List 1, for item 744 (FRANGELICO) is below the minimum GP of 42% (38.0%).
+11, Platinum Price List 1, for item 747 (CHIPS BIG ) is below the minimum GP of 42% (0.2%).
+11, Platinum Price List 1, for item 751 (ASHTON SAUV/BLANC) is below the minimum GP of 42% (38.3%).
+11, Platinum Price List 1, for item 752 (ROLO) is below the minimum GP of 42% (38.7%).
+11, Platinum Price List 1, for item 758 (BAR ONE CUP) is below the minimum GP of 42% (31.7%).
+11, Platinum Price List 1, for item 771 (BAR ONE GIANT) is below the minimum GP of 42% (32.2%).
+11, Platinum Price List 1, for item 772 (SAVANNA BIG) is below the minimum GP of 42% (34.8%).
+11, Platinum Price List 1, for item 777 (V/L RIVER RED 500 ML) is below the minimum GP of 42% (41.6%).
+11, Platinum Price List 1, for item 778 (V/L VINO BLANC 500 ML) is below the minimum GP of 42% (41.6%).
+11, Platinum Price List 1, for item 779 (4COUSINS ROSE 500ML) is below the minimum GP of 42% (41.8%).
+11, Platinum Price List 1, for item 780 (4COUS NAT SWEET 500 ML) is below the minimum GP of 42% (41.8%).
+12, Platinum Price List 3, for item 651 (ARCHERS CRANBERRY 330 ML) is above the maximum discount of 20%. (23.9%).
+12, Platinum Price List 3, for item 705 (T/OCEANS PIN GRIGIO) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 760 (V/LOV CREMOND) is above the maximum discount of 20%. (21.4%).
+12, Platinum Price List 3, for item 772 (SAVANNA BIG) is above the maximum discount of 20%. (100.0%).
+12, Platinum Price List 3, for item 783 (HANSA DRAUGHT 500ML) is above the maximum discount of 20%. (20.5%).
+13, Blocked Debtor:, 225, Izaakse Anton, Member:, 316, is a member in good standing and should unblocked.
+13, Blocked Debtor:, 806, Izaakse Elizabeth, Member:, 316, is a member in good standing and should unblocked.
+Done...
+
+
+ *** End ***

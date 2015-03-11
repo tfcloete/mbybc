@@ -1,0 +1,58 @@
+#!/bin/sh
+
+cd /home/pi/NetBeansProjects/Mbybc/ValidatePlatinum
+
+file=temp
+
+#
+#Add date and introduction
+#
+echo "
+
+" >> $file
+date > $file
+echo "(Hourly)
+" >> $file
+echo " *** The following inconsistencies were found in the Platinum Database ***" >> $file
+echo "
+" >> $file
+
+#
+#Run command to build report
+#
+#java -cp ./*:build/classes \
+#mb/ValidatePlatinum -ap \
+#>> $file
+
+java -jar \
+dist/validatePlatinum.jar \
+>> $file
+
+#
+#Add ending
+#
+echo "
+
+ *** End ***" >> $file
+
+#cat $file
+ 
+#
+#Send the mail
+# Using the cat -v command to print control chars, which prevents the body from being
+# attached as a MIME attachment. (The tr command is an alternative)
+#
+cat -v $file | mail -s "Platinum validation report" \
+tfcloete@gmail.com \
+exports@aloeferoxafrica.com \
+manager@mbybc.co.za
+
+
+#tr -cd '\10\11\12\15\40-\176' < $file | mail -s "Test using tr $file" tfcloete@gmail.com exports@aloeferoxafrica.com
+
+
+
+
+
+
+

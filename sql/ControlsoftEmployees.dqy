@@ -1,0 +1,7 @@
+XLODBC
+1
+DSN=ControlsoftPro-local;Description=ControsoftPro via 10.0.0.55;UID=mbybc;Pwd=mbybc;APP=Microsoft Office 2010;WSID=RPC-CLOETES;DATABASE=ControlsoftPro
+SELECT Employee.EmployeeID, Employee.TagID, Employee.TagRev, Employee.What, Employee.Enabled, Employee.Number, Employee.CompanyID, Employee.DepartmentID, Employee.Title, Employee.FirstNames, Employee.Surname, Employee.IDNumber, Employee.Gender, Employee.Address1, Employee.Address2, Employee.Suburb, Employee.City, Employee.Zip, Employee.HomeTel, Employee.WorkTel, Employee.CellTel, Employee.OtherTel, Employee.Photo, Employee.Voice, Employee.PINValidFrom, Employee.PINValidTo, Employee.PINValidRange, Employee.AccessLevel, Employee.AccompaniedType, Employee.AccompaniedID, Employee.AccompaniedExID, Employee.Extra01, Employee.Extra02, Employee.Extra03, Employee.Extra04, Employee.Extra05, Employee.Created, Employee.GUID, Employee.PointsmanData, Employee.Flags, Employee.Swiped  FROM ControlsoftPro.dbo.Employee Employee
+
+
+EmployeeID	TagID	TagRev	What	Enabled	Number	CompanyID	DepartmentID	Title	FirstNames	Surname	IDNumber	Gender	Address1	Address2	Suburb	City	Zip	HomeTel	WorkTel	CellTel	OtherTel	Photo	Voice	PINValidFrom	PINValidTo	PINValidRange	AccessLevel	AccompaniedType	AccompaniedID	AccompaniedExID	Extra01	Extra02	Extra03	Extra04	Extra05	Created	GUID	PointsmanData	Flags	Swiped

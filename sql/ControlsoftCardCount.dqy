@@ -1,0 +1,7 @@
+XLODBC
+1
+DSN=ControlsoftPro-local;Description=ControsoftPro via 10.0.0.55;UID=mbybc;Pwd=mbybc;APP=Microsoft Office 2010;WSID=RPC-CLOETES;DATABASE=ControlsoftPro
+SELECT       e.EmployeeID as ControlsoftID,      c.Number as MemberNo,      e.FirstNames,      e.Surname,      c.cards FROM      ( SELECT distinct e.Number, count ( e.EmployeeID ) AS cards FROM dbo.Employee e WHERE e.Number <> '' and e.Enabled=1 GROUP BY e.Number ) c,      dbo.Employee e where      e.Number = c.Number and c.cards>2 order by  c.cards desc, e.surname, ControlsoftID
+
+
+ControlsoftID	MemberNo	FirstNames	Surname	cards

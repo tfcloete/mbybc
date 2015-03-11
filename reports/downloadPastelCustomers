@@ -1,0 +1,27 @@
+#!/bin/sh
+
+#cd /home/pi/NetBeansProjects/Mbybc/ValidatePlatinum
+
+file=customers.json
+
+#
+#Add date and introduction
+#
+echo " *** Downloading Pastel customers ... ***" 
+
+#
+#Run command to extract all Customer record from Patel and write to
+#$file   (customers.json)
+#
+
+java -jar dist/reports.jar >> $file
+
+echo " *** Done ***"
+
+
+
+
+
+
+
+
